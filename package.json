@@ -9,9 +9,9 @@
   "author": "Parker Agee",
   "license": "MIT",
   "dependencies": {
-    "machine": "^4.0.0",
-    "twilio": "1.10.0",
-    "lodash": "^3.4.0"
+    "lodash": "^3.4.0",
+    "machine": "^15.0.0-2",
+    "twilio": "1.10.0"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,6 @@
       "list-phone-numbers",
       "list-potential-numbers"
     ],
-    "iconSrc": "https://s3-us-west-1.amazonaws.com/machinepack-icons/machinepack_twilio.png",
     "testsUrl": "https://travis-ci.org/parkeragee/machinepack-twilio"
   },
   "devDependencies": {

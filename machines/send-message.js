@@ -107,7 +107,7 @@ module.exports = {
       listPhoneNumbers({
         accountSid: inputs.accountSid,
         authToken: inputs.authToken
-      }).exec({
+      }).switch({
         error: function (err){
           return exits.error(err);
         },
@@ -123,7 +123,7 @@ module.exports = {
           listPotentialPhoneNumbers({
             accountSid: inputs.accountSid,
             authToken: inputs.authToken
-          }).exec({
+          }).switch({
             error: function (err){
               return exits.error(err);
             },
