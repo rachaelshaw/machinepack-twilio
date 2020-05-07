@@ -9,13 +9,13 @@
   "author": "Parker Agee",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^3.4.0",
-    "machine": "^15.0.0-2",
-    "twilio": "1.10.0"
+    "machine": "^15.0.0",
+    "twilio": "1.10.0",
+    "@sailshq/lodash": "^3.10.3"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:parkeragee/machinepack-twilio.git"
+    "url": "git@github.com:rachaelshaw/machinepack-twilio.git"
   },
   "machinepack": {
     "iconSrc": "https://s3-us-west-1.amazonaws.com/machinepack-icons/machinepack_twilio.png",

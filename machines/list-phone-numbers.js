@@ -54,7 +54,7 @@ module.exports = {
 
   fn: function (inputs,exits) {
 
-    var _ = require('lodash');
+    var _ = require('@sailshq/lodash');
     var client = require('twilio')(inputs.accountSid, inputs.authToken);
 
     client.incomingPhoneNumbers.list({}, function(err, response) {
