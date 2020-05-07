@@ -37,13 +37,9 @@ module.exports = {
 
   exits: {
 
-    error: {
-      description: 'Unexpected error occurred.',
-    },
-
     success: {
-      description: 'Done.',
-      example: ['+15128459328']
+      outputDescription: 'A list of phone numbers.',
+      outputType: ['string']
     },
 
   },
